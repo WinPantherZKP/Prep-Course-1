@@ -1,8 +1,8 @@
 /* eslint-disable no-undef */
 const {
-  nuevaString,
-  nuevoNum,
-  nuevoBool,
+  nuevaString, 'hola'
+  nuevoNum, 10
+  nuevoBool, true
   nuevaResta,
   nuevaMultiplicacion,
   nuevoModulo,
@@ -35,7 +35,7 @@ const {
   esVocal,
 } = require('../homework.js');
 
-describe('nuevaString', function() {
+describe('presentar', function() {
   it('Deberia ser un string', function() {
     expect(typeof nuevaString).toBe('string');
   });
